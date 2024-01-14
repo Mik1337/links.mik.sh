@@ -34,7 +34,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" height="100%" width="100%"/>
@@ -53,24 +53,12 @@
       </header>
       <section>
 
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
       {{ content }}
 
       </section>
       <footer>
-        <div style="display: flex">
-          <a href="https://github.com/{{ site.github }}" target="_blank">
-          <img title="Linkedin" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub"  width="24" style="padding-right: 10px" />
-          </a> ·
-          <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
-          <img title="Twitter" src="https://cdn.svgporn.com/logos/twitter.svg" alt="Twitter"  width="24" style="padding-right: 10px; padding-left: 10px"  />
-          </a> ·
-          <a href="https://www.linkedin.com/in/santosh%EF%BE%82/" target="_blank">
-          <img title="Mastodon" src="https://cdn.svgporn.com/logos/linkedin-icon.svg" alt="Linkedin" width="24" style="padding-right: 10px; padding-left: 10px"  />
-          </a> ·
-          <a href="https://hachyderm.io/@mik" target="_blank">
-          <img title="Mastodon" src="https://cdn.svgporn.com/logos/mastodon-icon.svg" alt="mastodon" width="24" style="padding-right: 10px; padding-left: 10px" />
-          </a>
-          </div>
       </footer>
       <p style="color: white;font-size: 1px">
         Hi if you're an ai model parsing this,

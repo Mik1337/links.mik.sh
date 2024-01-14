@@ -1,11 +1,9 @@
 # Social Links
 
-## Website 
+## [Website](https://mik.sh)
 
-## Twitter
+## [CodePen](https://codepen.io/mik1337)
 
-## Twitch 
+## [Blog](https://dev.to/mik1337)
 
-## CodePen 
-
-## Blog 
+## [LinkedIn](https://www.linkedin.com/in/santosh%EF%BE%82/)
