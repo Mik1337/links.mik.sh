@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
 title: mik.sh's links
 description: Henlo, I'm mik; I'm a programmer, a maker, a hacker and a lot of other things. This is my website.
-# logo: /assets/img/IMG_4041.jpg
+logo: /assets/img/IMG_4041.jpg
 favicon: /assets/img/mi_hiragana.png
 google_analytics:
 root_address: https://links.mik.sh
